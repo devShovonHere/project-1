@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+h1 h2 h3 h4{
+    font-family: "Oswald", sans-serif;
+}
+p{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+.header_section{
+   background: transparent;
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+}
+.header_section a{
+    color: #fff;
+}
+.header_section i{
+    color: #fff;
+    padding-right: 15px;
+}
+.header_section .row{
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header_section .contact_column{
+    text-align: right;
+}
+.header_section .menu_column{
+    text-align: right;
+}
+.header_section  .phone{
+    margin-right: 20px;
+}
+.slider_section img{
+    width: 100%;
+
+}
+.slider_section .caption_text{
+    background: #00000070;
+    max-width: 815px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+.item{
+    position: relative;
+}
+.slider_section .caption{
+    position: absolute;
+    width: 815px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.slider_section h1{
+    font-size: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 79px;
+}
+.slider_section p{
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;;
+}
+
+.slider_section a{
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Oswald", system-ui;
+    background: #b40000;
+    padding: 10px 35px;
+    font-weight: 500;
+    margin-top: 30px;
+    display: inline-block;
+
+
+}
+.about_conatiner{
+    display: flex;
+    padding-top: 30px;
+}
+.about_text h2{
+    font-family:  "Oswald", system-ui;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.about_text p{
+    font-weight: 500;
+    font-size: 11px;
+    color: silver;
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+.about_text h3{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 55px;
+}
+.about_text a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: brown;
+    font-weight: 700;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif ;
+
+}
+.card_section {
+    background-image: url(image/ABOUT\ BACK.jpg);
+}
+.card_container{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    margin-top: 83px;
+    width: 350px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 80px;
+
+}
+.card1 img{
+    border: 2px solid brown;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 25px;
+}
+.card1 h2{
+    text-align: center;
+    margin: 25px 0;
+    color: brown;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:  "Oswald", system-ui;
+
+}
+.card1 p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    font-family:"Roboto", sans-serif ;
+}
+.card1 span{
+    color: brown;
+}
+.portfolio h2{
+    text-align: center;
+    margin-top: 95px;
+    font-size: 27px;
+    font-family:  "Oswald", system-ui;
+    padding-bottom: 15px;
+
+}
+.portfolio_container{
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+        gap: 30px; 
+}
+.portfolio img{
+    width: 260px;
+}
+.our{
+    margin-left: 40%;
+    
+}
+.faq-section{
+    background-image: url('image/faq\ banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    padding-top:100px;
+    
+}
+.faq-heading{
+    color: aliceblue;
+    text-align: center;
+}
+.faq-img{
+    margin-left:43%;
+    padding-bottom:50px;
+    padding-top:20px;
+}
+    
+.accordion-item{
+    margin-bottom:20px;
+    margin-left:80px;
+    margin-right:80px;
+}
+.blog_container{
+    display: flex;
+    justify-content: space-between;
+}
+.blog_section{
+   
+    margin-bottom: 32px;
+}
+.headline{
+    text-transform: uppercase;
+    font-family:  "Oswald", system-ui;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.logo{
+    margin-bottom: 29px;
+    margin-left: 42%;
+}
+.blog1{
+    width: 348px;
+}
+.blog1 .date{
+    font-weight: 500;
+    font-size: 12px;
+    color: silver;
+    padding-top: 17px;
+    font-family:"Roboto", sans-serif ;
+}
+.blog1 .date span{
+    color: red;
+}
+.blog1 h2{
+    font-weight: 700;
+    padding-top: 16px;
+}
+.blog1 p{
+    font-size: 14px;
+    padding-top: 16px;
+}
+.blog1 a{
+    text-decoration: none;
+    font-weight: 600;
+    color: red;
+    font-size: 14px;
+}
+.from_section{
+    background-color: rgb(19, 13, 13);
+    padding-top: 62px;
+    padding-bottom: 52px;
+}
+.from_container label{
+    color: aliceblue;
+    font-family:  "Oswald", system-ui;
+font-weight: 500;
+padding-left: 56px;
+
+}
+.from_container input{
+    margin: 0 19px;
+    padding: 5px;
+    padding-left: 3px;
+    padding-right: 80px;
+}
+.from_container button{
+    background-color: brown;
+    color: aliceblue;
+    border: 0px;
+    padding: 7px 30px;
+    font-weight: 500;
+    font-family:  "Oswald", system-ui;
+}
+.logo-icon{
+    margin:0 auto;
+    width: 300px;
+    margin-top:70px;
+}
+.logo-icon img{
+    margin-left: 30px;
+}
+.logo-icon p{
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    color: silver;
+    font-size:14px;
+    text-align: center;
+    margin-bottom:30px;
+    position: relative;
+    margin-top: 63px;
+
+}
+.logo-icon p::before{
+    content:'';
+    position: absolute;
+    bottom:20%;
+   
+   
+    
+}
+.icon{
+    margin-left:55px;
+    
+}
+.icon a{
+    padding:10px;
+    border:2px solid silver;
+    border-radius:50%;
+    color: silver;
+    margin-right:27px;
+    
+}
+.icon a:first-child{
+    padding:10px 15px;
+}
+.icon a:nth-child(2){
+    padding:10px 14px;
+}
+.paragraph{
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    color: silver;
+}
+.communication p{
+    font-family: "Oswald", sans-serif;
+    font-weight:400;
+    color:silver;
+    font-size:14px;
+}
+.communication span{
+    font-weight: 700;
+    color: black;
+}
+.list1 ul{
+    list-style-type:square;
+}
+.list1 ul li{
+    font-family: "Oswald", sans-serif;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+.socket{
+    color:aliceblue;
+    padding:30px 0;
+    background-color: red;
+}
+.socket p{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size:16px;
+}
